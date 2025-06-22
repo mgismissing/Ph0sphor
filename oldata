@@ -1,0 +1,1 @@
+adb shell cmd overlay list | grep deadc0de.morph3us.ph0sphor

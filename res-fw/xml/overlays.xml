@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item target="string/allow" value="@string/allow" />
+    <item target="string/android_start_title" value="@string/android_start_title" />
+    <item target="string/deny" value="@string/deny" />
+</overlay>

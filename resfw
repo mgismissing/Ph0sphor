@@ -1,0 +1,1 @@
+adb shell cmd overlay lookup --verbose --user 0 android android:$1

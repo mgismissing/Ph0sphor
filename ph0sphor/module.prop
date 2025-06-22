@@ -1,0 +1,6 @@
+id=deadc0de.morph3us.ph0sphor.overlay
+name=Systemless Phosphor overlay
+description=Systemlessly applies the Phosphor overlay at boot
+version=1.0
+versionCode=1
+author=0xDEADC0DE_

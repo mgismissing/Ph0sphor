@@ -1,0 +1,12 @@
+./cleanup &&
+./bi ui &&
+./bi fw &&
+adb shell rm -rfv /sdcard/tmp/ph0sphor &&
+adb push ph0sphor /sdcard/tmp/ &&
+adb shell su -c rm -fv /data/adb/modules/ph0sphor/system_ext/overlay/Phosphor*.apk &&
+adb shell su -c rm -fv /system_ext/overlay/Phosphor*.apk &&
+adb shell su -c mv -v /sdcard/tmp/ph0sphor /data/adb/modules &&
+./chres ui &&
+./chres fw &&
+adb shell su -c rm -fv /data/resource-cache/system@system_ext@overlay@Phosphor*
+#adb shell su -c mount -v -o bind "/data/adb/modules/ph0sphor/system_ext/overlay" "/system_ext/overlay"

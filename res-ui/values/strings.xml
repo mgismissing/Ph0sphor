@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kg_power_time_format_hour">%d h until full</string>
+    <string name="kg_power_time_format_hour_minute">%1$d h %2$d m until full</string>
+    <string name="kg_power_time_format_minute">%d m until full</string>
+</resources>

@@ -1,0 +1,2 @@
+rm -fv Phosphor-* &&
+rm -fv ph0sphor/system_ext/overlay/*

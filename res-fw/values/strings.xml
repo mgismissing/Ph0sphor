@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow">Whatever</string>
+    <string name="android_start_title">Preparing morph3us…\n\nPatched by 0xDEADC0DE_</string>
+    <string name="deny">Hell naw</string>
+</resources>
