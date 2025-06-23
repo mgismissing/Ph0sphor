@@ -53,7 +53,6 @@ class Overlay:
         shutil.rmtree(root, ignore_errors=True)
         os.mkdir(root)
         manifest = root + "/AndroidManifest.xml"
-        #with open(manifest, "x"): pass
         with open(manifest, "w") as f:
             f.write(f"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n")
             f.write(f"<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"{self.pkgName}\">\n")
