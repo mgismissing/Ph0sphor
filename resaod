@@ -1,0 +1,1 @@
+adb shell cmd overlay lookup --verbose --user 0 com.samsung.android.app.aodservice com.samsung.android.app.aodservice:$1

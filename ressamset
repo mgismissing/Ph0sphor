@@ -1,0 +1,1 @@
+adb shell cmd overlay lookup --verbose --user 0 com.android.settings com.android.settings:$1

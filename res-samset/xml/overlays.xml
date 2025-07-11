@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item target="string/one_ui_version_title" value="@string/info_software_oneui" />
+    <item target="string/sec_software_update_title" value="@string/updates" />
+    <item target="string/sec_download_and_install" value="@string/updates_desc" />
+    <!----><item target="string/dashboard_title" value="@string/dashboard" />
+</overlay>

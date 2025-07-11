@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item target="string/kg_power_time_format_hour" value="@string/charge_hour" />
+    <item target="string/kg_power_time_format_hour_minute" value="@string/charge_hour_minute" />
+    <item target="string/kg_power_time_format_minute" value="@string/charge_minute" />
+</overlay>

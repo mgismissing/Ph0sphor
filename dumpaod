@@ -1,0 +1,1 @@
+adb shell su -c idmap2 dump --idmap-path /data/resource-cache/system@system_ext@overlay@Phosphor-aod.apk@idmap

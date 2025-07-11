@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="charge_hour">%d h before explosion</string>
+    <string name="charge_hour_minute">%1$d h %2$d m before explosion</string>
+    <string name="charge_minute">%d m before explosion</string>
+</resources>

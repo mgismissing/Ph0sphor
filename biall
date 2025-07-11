@@ -1,12 +1,18 @@
 ./cleanup &&
-./bi ui &&
 ./bi fw &&
+./bi ui &&
+./bi aod &&
+./bi samset &&
 adb shell rm -rfv /sdcard/tmp/ph0sphor &&
 adb push ph0sphor /sdcard/tmp/ &&
 adb shell su -c rm -fv /data/adb/modules/ph0sphor/system_ext/overlay/Phosphor*.apk &&
 adb shell su -c rm -fv /system_ext/overlay/Phosphor*.apk &&
 adb shell su -c mv -v /sdcard/tmp/ph0sphor /data/adb/modules &&
-./chres ui &&
 ./chres fw &&
+./chres ui &&
+./chres aod &&
+./chres samset &&
 adb shell su -c rm -fv /data/resource-cache/system@system_ext@overlay@Phosphor*
+# vvv Crashes Magisk and the entire overlay
+#adb shell su -c cp -v -a "/system_ext/overlay/." "/data/adb/modules/ph0sphor/system_ext/overlay"
 #adb shell su -c mount -v -o bind "/data/adb/modules/ph0sphor/system_ext/overlay" "/system_ext/overlay"

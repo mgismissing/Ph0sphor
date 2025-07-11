@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="deadc0de.morph3us.ph0sphor.samset" >
+    <application android:hasCode="false" />
+    <overlay android:targetPackage="com.android.settings" android:targetName="PhosphorSettings" android:resourcesMap="@xml/overlays" android:isStatic="true" android:priority="999" />
+</manifest>

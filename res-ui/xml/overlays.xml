@@ -15,6 +15,8 @@
     <item target="drawable/quick_panel_icon_flashlight_on" value="@drawable/qp_flashlight" />
     <item target="drawable/quick_panel_icon_wifihotspot" value="@drawable/qp_hotspot" />
 
+    <item target="string/kg_fingerprint_acquired_partial" value="Who tf r u?" />
+    <item target="string/kg_fingerprint_no_match" value="YOU SHALL NOT PASS" />
     <item target="string/kg_fingerprint_password_none_instructions" value="Are you 0xDEADC0DE_?" />
     <item target="string/kg_fingerprints_password_instructions" value="Are you 0xDEADC0DE_?" />
     <item target="string/kg_none_none_password_restart_instructions" value="I forgot your password" />
@@ -26,11 +28,11 @@
     <item target="string/sec_quick_settings_flashlight_label" value="Pipe bomb" />
     <item target="string/quick_settings_airplane_mode_label" value="9/11 mode" />
     <item target="string/quick_settings_bluetooth_label" value="BLE" />
-    <!-- not working <item target="string/quick_settings_location_label" value="I live on Earth" /> -->
+    <!-- not working --> <item target="string/quick_settings_location_label" value="I live\non Earth" />
     <item target="string/quick_settings_sec_dnd_label" value="Don't fuck\nwith me" />
     <item target="string/quick_settings_sec_wifi_label" value="ESP32" />
 
-    <item target="color/qs_tile_container_bg" value="@color/black" />
+    <item target="color/qs_tile_container_bg" value="@color/theme0" />
     <item target="color/qs_tile_round_background_off" value="@color/theme0" />
     <item target="color/qs_tile_round_background_on" value="@color/theme3" />
 </overlay>
